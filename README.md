@@ -7,7 +7,8 @@ A **MERN-based web app** to track **upcoming and past coding contests** from **L
 ## 🌐 Live Project
 
 - 🔸 **Frontend (Vercel)**: [https://contest-tracker-app-lime.vercel.app](https://contest-tracker-app-lime.vercel.app)  
-- 🔹 **Backend (Render)**: [https://contest-tracker-app-backend.onrender.com](https://contest-tracker-app-backend.onrender.com)  
+- 🔹 **Backend API (Render)**: [https://contest-tracker-app-backend.onrender.com](https://contest-tracker-app-backend.onrender.com)  
+  _(Note: Only serves API routes like `/api/contests`, `/api/health`)_ 
 - 🗂️ **GitHub Repo**: [https://github.com/Shilpa805/CONTEST-TRACKER-APP](https://github.com/Shilpa805/CONTEST-TRACKER-APP)
 
 ---
