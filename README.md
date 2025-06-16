@@ -44,8 +44,9 @@ A **MERN-based web app** to track **upcoming and past coding contests** from **L
 git clone https://github.com/Shilpa805/CONTEST-TRACKER-APP.git
 cd CONTEST-TRACKER-APP/backend
 npm install
+```
 
-## 📂 Folder Structure
+### 📂 Folder Structure
 ```
 contest-tracker/
 ├── backend/       # Express.js + MongoDB backend
@@ -62,7 +63,7 @@ contest-tracker/
 └── README.md
 ```
 
-## 👩‍💻 Author
+### 👩‍💻 Author
 ```
 Shilpa Kumari
 📌 GitHub: @Shilpa805
