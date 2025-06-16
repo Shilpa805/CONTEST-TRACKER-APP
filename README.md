@@ -1,57 +1,70 @@
-### 🏆 **Contest Tracker**  
-A **MERN-based web app** to track **upcoming and past coding contests** from **LeetCode, Codeforces, and CodeChef**.  
+# 🏆 CONTEST TRACKER
+
+A **MERN-based web app** to track **upcoming and past coding contests** from **LeetCode, Codeforces, and CodeChef**.
 
 ---
 
-## 🚀 **Features**  
-✅ **Upcoming & Past Contests** – View contests from LeetCode, Codeforces, and CodeChef.  
-✅ **Today's Contests** – Easily see contests happening today.  
-✅ **Bookmark Contests** – Save your favorite contests for later.  
-✅ **Submit Solutions** – Attach YouTube solutions for past contests.  
-✅ **Dark Mode** – Toggle between light and dark themes.  
-✅ **Fast & Responsive UI** – Built with React & TailwindCSS.  
+## 🌐 Live Project
+
+- 🔸 **Frontend (Vercel)**: [https://contest-tracker-app-lime.vercel.app](https://contest-tracker-app-lime.vercel.app)  
+- 🔹 **Backend (Render)**: [https://contest-tracker-app-backend.onrender.com](https://contest-tracker-app-backend.onrender.com)  
+- 🗂️ **GitHub Repo**: [https://github.com/Shilpa805/CONTEST-TRACKER-APP](https://github.com/Shilpa805/CONTEST-TRACKER-APP)
 
 ---
 
-## 🛠️ **Tech Stack**  
-- **Frontend**: React, TailwindCSS, React Router  
-- **Backend**: Node.js, Express.js, MongoDB  
-- **API Integration**: Codeforces API, LeetCode GraphQL, CodeChef API  
-- **State Management**: React Hooks  
-- **Deployment**: Render, Vercel
+## 🚀 Features
+
+✅ View **Upcoming**, **Past**, and **Today’s** contests  
+✅ Filter contests by **platform** (LeetCode, Codeforces, CodeChef)  
+✅ **Bookmark** your favorite contests using localStorage  
+✅ **Add YouTube solution links** to past contests  
+✅ **Dark/Light Mode toggle**  
+✅ **Responsive** design built with **TailwindCSS**  
+✅ **Cron jobs** auto-fetch latest contests daily  
 
 ---
 
-## 🚀 Installation & Setup
+## 🛠️ Tech Stack
 
-### Backend Setup
-```sh
-cd backend
+- **Frontend**: React, Vite, TailwindCSS, React Router  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB (Mongoose)  
+- **APIs**: Codeforces API, LeetCode GraphQL, CodeChef  
+- **Cron Jobs**: node-cron + axios  
+- **Deployment**: Vercel (Frontend), Render (Backend)
+
+---
+
+## ⚙️ Installation & Setup (Local)
+
+### 🔧 Backend Setup
+
+```bash
+git clone https://github.com/Shilpa805/CONTEST-TRACKER-APP.git
+cd CONTEST-TRACKER-APP/backend
 npm install
-npm run dev
-```
-
-### Frontend Setup
-```sh
-cd frontend
-npm install
-npm run dev
-```
-
-### Running the App
-Ensure the backend is running on `localhost:5000`, then start the frontend.
-By default, the app will be available at:
-```
-Frontend: http://localhost:5173
-Backend:  http://localhost:5000
-```
 
 ## 📂 Folder Structure
 ```
 contest-tracker/
-│-- frontend/    # React frontend (Vite + TailwindCSS)
-│-- backend/     # Node.js + Express backend with MongoDB
-│-- README.md    # Project documentation
+├── backend/       # Express.js + MongoDB backend
+│   ├── routes/
+│   ├── models/
+│   ├── utils/
+│   └── server.js
+│
+├── frontend/      # React frontend with Vite + TailwindCSS
+│   ├── src/
+│   ├── public/
+│   └── vite.config.js
+│
+└── README.md
+```
+
+## 👩‍💻 Author
+```
+Shilpa Kumari
+📌 GitHub: @Shilpa805
 ```
 
 🔥 **Happy Coding! 🚀**
